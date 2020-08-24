@@ -1,0 +1,31 @@
+
+body {
+    text-align: center;
+    background: url(/image/watercolor.png);
+}
+
+
+input, select, button {
+    width: 280px;
+    height: 30px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.decor {
+    position: relative;
+    max-width: 500px;
+    margin: 50px auto 0;
+    background: rgba(204, 204, 204, 0.651);
+    border-radius: 30px;
+    opacity: 0.8;
+  }
+
+  .visual:hover {
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 0 3px rgba(204, 204, 204, 0.651);
+    animation-duration: 2s;
+  }
+
+  
